@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "Xu7dqm2OnmtT9wG1mpmJz5rfqXffE8jxTSXMBYqFa/o=",
+  "Source": "AngularDotnetDemo.Server",
+  "BasePath": "_content/AngularDotnetDemo.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\tommy\\source\\repos\\AngularDotnetDemo\\angulardotnetdemo.client\\angulardotnetdemo.client.esproj",
+      "Version": 2,
+      "Source": "angulardotnetdemo.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
