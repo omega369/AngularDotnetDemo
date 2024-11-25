@@ -9,6 +9,8 @@ This is a simple two-page application for managing a video game catalogue. The p
 3. Fully functional front-end/back-end integration.
 4. Database seeding for initial data.
 5. Open API support.
+6. Frontend / Backend unit testing.
+7. Frontend / Backend dependency injection.
 
 ## **Getting Started**
 
@@ -28,7 +30,7 @@ Follow these steps to set up the application:
    cd angulardotnetdemo.client
    ```
 
-2. Install dependencies (This step requires `--force` as ng-boostrap does not yet support Angular v19):
+2. Install dependencies (This step requires `--force` as [ng-boostrap does not yet support Angular v19](https://github.com/ng-bootstrap/ng-bootstrap/issues/4779)):
 
    ```bash
    npm install --force
@@ -60,7 +62,11 @@ Follow these steps to set up the application:
    dotnet run
    ```
 
+   Navigate to `https://localhost:61959/` on your browser (You may need to install an IIS Development Certificate).
+
 ## **Development Details**
+
+This project was bootstrapped using the Angular ASP.NET Core template from Visual Studio and built on from there.
 
 ### **Technologies Used**
 
@@ -70,7 +76,7 @@ Follow these steps to set up the application:
 
 ## **Usage**
 
-- **Browse Page**: View the catalog of video games.
+- **Browse Page**: View the catalog of video games on the homepage `/`.
 - **Edit Page**: Edit an existing game by navigating to `/edit/:id`.
 
 ## **Possible Enhancements**
@@ -81,4 +87,20 @@ Follow these steps to set up the application:
 - Add a loading indicator when data fetching.
 - Add create / delete video game api and functionality.
 
-If you encounter any issues, feel free to reach out!
+## What I learned
+
+### Angular's New Control Flow Syntax
+
+Angular's updated control flow syntax improves template logic with a more intuitive and readable approach to conditions and loops, reducing boilerplate and enhancing clarity.
+
+### Angular Signals
+
+Signals introduce a modern, fine-grained reactivity model in Angular, optimizing performance by recalculating only affected components and paving the way for Zone.js-free applications.
+
+### Nullable Reference Types in C#
+
+C# now enables nullable reference types by default, encouraging explicit null handling at compile time, reducing runtime errors, and promoting safer, more robust code.
+
+---
+
+**If you encounter any issues, feel free to reach out!**
