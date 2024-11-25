@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace AngularDotnetDemo.Server
+﻿namespace AngularDotnetDemo.Server.VideoGame
 {
     public class VideoGame
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace AngularDotnetDemo.Server
+namespace AngularDotnetDemo.Server.VideoGame
 {
     public class VideoGameContext : DbContext
     {

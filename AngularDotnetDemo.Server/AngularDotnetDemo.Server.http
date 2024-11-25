@@ -1,6 +1,6 @@
 @AngularDotnetDemo.Server_HostAddress = http://localhost:5213
 
-GET {{AngularDotnetDemo.Server_HostAddress}}/weatherforecast/
+GET {{AngularDotnetDemo.Server_HostAddress}}/api/videogame/
 Accept: application/json
 
 ###

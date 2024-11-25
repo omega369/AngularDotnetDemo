@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AngularDotnetDemo.Server.VideoGame;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AngularDotnetDemo.Server.Controllers
 {
@@ -6,10 +7,10 @@ namespace AngularDotnetDemo.Server.Controllers
     [ApiController]
     public class VideoGameController : Controller
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<VideoGameController> _logger;
         private readonly IVideoGameService _videoGameService;
 
-        public VideoGameController(ILogger<WeatherForecastController> logger, IVideoGameService videoGameService)
+        public VideoGameController(ILogger<VideoGameController> logger, IVideoGameService videoGameService)
         {
             _logger = logger;
             _videoGameService = videoGameService;
@@ -24,7 +25,7 @@ namespace AngularDotnetDemo.Server.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<VideoGame>> GetVideoGame(int id)
+        public async Task<ActionResult<VideoGame.VideoGame>> GetVideoGame(int id)
         {
             var videoGame = await _videoGameService.GetVideoGameAsync(id);
 
@@ -38,7 +39,7 @@ namespace AngularDotnetDemo.Server.Controllers
 
         // PUT: api/videogame/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutVideoGame(int id, VideoGame videoGame)
+        public async Task<IActionResult> PutVideoGame(int id, VideoGame.VideoGame videoGame)
         {
             var success = await _videoGameService.UpdateVideoGameAsync(id, videoGame);
 

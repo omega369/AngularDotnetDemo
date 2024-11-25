@@ -1,5 +1,4 @@
-
-# Video Game Catalog
+# Video Game Catalogue
 
 This is a simple two-page application for managing a video game catalog. The project uses **Angular 19** for the front end and **ASP.NET Core 8** for the back end. The front end allows users to browse and edit video games, while the back end handles the data storage using **Entity Framework Core** with SQL Server.
 

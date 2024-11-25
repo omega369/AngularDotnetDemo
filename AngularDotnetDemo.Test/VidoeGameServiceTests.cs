@@ -1,4 +1,5 @@
 ﻿using AngularDotnetDemo.Server;
+using AngularDotnetDemo.Server.VideoGame;
 using Microsoft.EntityFrameworkCore;
 
 namespace AngularDotnetDemo.Test

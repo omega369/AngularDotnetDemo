@@ -1,4 +1,4 @@
-﻿namespace AngularDotnetDemo.Server
+﻿namespace AngularDotnetDemo.Server.VideoGame
 {
     public interface IVideoGameService
     {

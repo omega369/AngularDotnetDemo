@@ -1,4 +1,4 @@
-using AngularDotnetDemo.Server;
+using AngularDotnetDemo.Server.VideoGame;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
