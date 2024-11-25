@@ -5,7 +5,7 @@ import { VideoGame } from './video-game.model';
 
 @Injectable({ providedIn: 'root' })
 export class VideoGameService {
-    private apiUrl = 'https://localhost:50606/api/videogame';
+    private apiUrl = 'https://localhost:61959/api/videogame';
 
     constructor(private http: HttpClient) {}
 
