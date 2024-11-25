@@ -42,15 +42,13 @@ export class VideoGameEditComponent implements OnInit {
     ngOnInit() {
         const id = this.route.snapshot.params['id'];
         if (id) {
-            this.gameService.getGame(+id).subscribe((data) => (this.game = data));
+            this.gameService.getGame(id).subscribe((data) => (this.game = data));
         }
     }
 
     saveGame() {
         if (this.game.id) {
             this.gameService.updateGame(this.game.id, this.game).subscribe(() => this.router.navigate(['/']));
-        } else {
-            this.gameService.addGame(this.game).subscribe(() => this.router.navigate(['/']));
         }
     }
 }

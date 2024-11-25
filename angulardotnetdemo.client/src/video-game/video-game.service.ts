@@ -17,15 +17,7 @@ export class VideoGameService {
         return this.http.get<VideoGame>(`${this.apiUrl}/${id}`);
     }
 
-    addGame(game: VideoGame): Observable<VideoGame> {
-        return this.http.post<VideoGame>(this.apiUrl, game);
-    }
-
     updateGame(id: number, game: VideoGame): Observable<void> {
         return this.http.put<void>(`${this.apiUrl}/${id}`, game);
-    }
-
-    deleteGame(id: number): Observable<void> {
-        return this.http.delete<void>(`${this.apiUrl}/${id}`);
     }
 }

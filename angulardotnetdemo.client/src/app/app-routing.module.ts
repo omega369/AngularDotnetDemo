@@ -6,7 +6,6 @@ import { VideoGameEditComponent } from '../video-game/video-game-edit.component'
 const routes: Routes = [
   { path: '', component: VideoGameBrowseComponent },
   { path: 'edit/:id', component: VideoGameEditComponent },
-  { path: 'edit', component: VideoGameEditComponent },
 ];
 
 @NgModule({
