@@ -42,8 +42,11 @@ describe('VideoGameListComponent', () => {
 
   it('should load video games on init', () => {
     fixture.detectChanges(); // Trigger ngOnInit
+
     expect(videoGameService.getGames).toHaveBeenCalled();
-    expect(component.videoGames.length).toBe(2);
-    expect(component.videoGames).toEqual(mockVideoGames);
+
+    const videoGamesValue = component.videoGames();
+    expect(videoGamesValue.length).toBe(2);
+    expect(videoGamesValue).toEqual(mockVideoGames);
   });
 });

@@ -1,6 +1,6 @@
 # Video Game Catalogue
 
-This is a simple two-page application for managing a video game catalogue. The project uses **Angular 19** for the front end and **ASP.NET Core 8** for the back end. The front end allows users to browse and edit video games, while the back end handles the data storage using **Entity Framework Core** with SQL Server.
+This is a simple two-page application for managing a video game catalogue. The project uses **Angular 19** for the front-end and **ASP.NET Core 8** for the back-end. The front end allows users to browse and edit video games, while the back end handles the data storage using **Entity Framework Core** with SQL Server.
 
 ## **Features**
 
@@ -9,8 +9,8 @@ This is a simple two-page application for managing a video game catalogue. The p
 3. Fully functional front-end/back-end integration.
 4. Database seeding for initial data.
 5. Open API support.
-6. Frontend / Backend unit testing.
-7. Frontend / Backend dependency injection.
+6. Front-end / back-end unit testing.
+7. Front-end / back-end dependency injection.
 
 ## **Getting Started**
 
@@ -22,7 +22,7 @@ Follow these steps to set up the application:
 - **.NET SDK**: Install .NET SDK 8 or later.
 - **SQL Server**: Local or remote SQL Server instance.
 
-### **2. Front End Setup**
+### **2. Front-End Setup**
 
 1. Navigate to the `angulardotnetdemo.client` directory
 
@@ -36,7 +36,7 @@ Follow these steps to set up the application:
    npm install --force
    ```
 
-### **3. Back End Setup**
+### **3. Back-End Setup**
 
 1. Open the solution in Visual Studio
 
@@ -54,7 +54,7 @@ Follow these steps to set up the application:
    update-database
    ```
 
-   This will create the database and apply migrations.
+   This will create the database and apply entity framework migrations.
 
 4. Run the back end though Visual Studio `Ctrl + F5` or dotnet sdk:
 
