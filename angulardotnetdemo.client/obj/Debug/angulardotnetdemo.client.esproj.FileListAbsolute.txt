@@ -1,1 +1,2 @@
 C:\Users\tommy\source\repos\AngularDotnetDemo\angulardotnetdemo.client\obj\Debug\angulardotnetdemo.client.esproj.CoreCompileInputs.cache
+C:\Users\tommy\playground\AngularDotnetDemo\angulardotnetdemo.client\obj\Debug\angulardotnetdemo.client.esproj.CoreCompileInputs.cache

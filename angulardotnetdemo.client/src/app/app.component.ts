@@ -12,5 +12,5 @@ export class AppComponent implements OnInit {
   ngOnInit() {
   }
 
-  title = 'angulardotnetdemo.client';
+  title = 'Angular Dotnet Demo';
 }
